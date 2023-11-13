@@ -1,0 +1,61 @@
+.pizzaVar {
+  padding: 90px 0;
+}
+.pizza-var-container {
+  padding: 45px 20px 35px 44px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+.container-mashroom-pizza, .container-pesto-pizza {
+  position: relative;
+}
+
+.new p, .sale p {
+  margin: 0;
+  text-align: center;
+  font-weight: 700;
+  font-size: 12px;
+}
+.new p{
+  color: #fff;
+}
+.sale p{
+  color:black
+
+}
+.new , .sale{
+  position: absolute;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+  padding: 5px 20px 5px 15px;
+  z-index: 3;
+}
+.new::before, .sale::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  transform: skewX(-16deg);
+  transform-origin: 100% 0%;
+  z-index: -3;
+}
+.new::before{
+   background-color: #6046b6;
+
+}
+.sale::before{
+ background-color: #FFE745;
+}
+
+
+h2 {
+  text-align: center;
+  margin-bottom: 50px;
+}

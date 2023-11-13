@@ -1,0 +1,138 @@
+.line {
+  width: 100%;
+  height: 1px;
+  background-color: #888889;
+}
+
+.footer {
+  color: white;
+  background-color: #38393b;
+}
+.info-container {
+  padding: 80px 0;
+  display: flex;
+  justify-content: space-between;
+}
+.info-container ul {
+  margin-top: 30px;
+  padding: 0;
+  list-style: none;
+}
+.info-container ul li a {
+  text-decoration: none;
+  color: white;
+}
+.info-container ul li {
+  margin-bottom: 10px;
+}
+
+.info-container ul li a:hover {
+  color: #ffe745;
+}
+.heading-span {
+  font-size: 24px;
+}
+.info-container p {
+  margin-top: 30px;
+  color: #888889;
+}
+.mail-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.email-input {
+  color: white;
+  padding: 16px 25px 15.5px 25px;
+  background-color: #565758;
+  border: none;
+}
+::placeholder {
+  color: #fff;
+}
+.email-input:focus,
+.email-input:active {
+  padding: 15px 25px 15.5px 24px;
+  border: 1px solid #fff;
+  outline: none;
+}
+.button-email1 {
+
+  padding: 17.5px 25px 16px 25px;
+  background-color: #ffe745;
+  border: none;
+  font-size: 12px;
+}
+
+.footer-links {
+  gap: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.data {
+  padding: 50px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.icons {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-left: 32px;
+  gap: 10px;
+}
+.icons > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 29px;
+  height: 29px;
+  line-height: 29px;
+  font-size: 18px;
+  background: #4c4d4f;
+}
+
+.icons > div i:hover {
+  background-color: #6046b6;
+}
+.like {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.like img {
+  border-radius: 4px;
+  height: 25px;
+  width: 50px;
+  margin-right: 8px;
+}
+.like span {
+  font-size: 24px;
+}
+.data div a {
+  text-decoration: none;
+  font-size: 18px;
+  color: white;
+  margin-left: 10px;
+}
+
+.data div i {
+  text-align: center;
+  width: 29px;
+  height: 29px;
+  line-height: 29px;
+  font-size: 18px;
+  background: #4c4d4f;
+}
+.data div a:hover {
+  color: #ffe745;
+}
+.geo-info {
+  padding: 40px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}

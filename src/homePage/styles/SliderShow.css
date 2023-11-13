@@ -1,0 +1,73 @@
+#pizza-carousel {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100vw;
+  height: 100vh;
+  box-sizing: content-box;
+}
+.pizza-info {
+  color: white;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.button1,
+.button2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80px;
+  height: 80px;
+  z-index: 0;
+  position: relative;
+  overflow: hidden;
+}
+.button1::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(255, 255, 255, 0.2);
+  transform: skewX(10deg);
+  transform-origin: 100% 100%;
+  z-index: -1;
+}
+.button2::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(255, 255, 255, 0.2);
+  transform: skewX(-10deg);
+  transform-origin: 100% 100%;
+  z-index: -1;
+}
+.button1 div i,
+.button2 div i {
+  font-size: 30px;
+  color: white;
+  opacity: 1 !important;
+}
+.info-pizza h1 {
+  font-size: 130px;
+}
+.info-pizza p {
+  font-size: 18px;
+  margin-top: 24px;
+  margin-bottom: 70px;
+}
+.container-pizza a {
+  text-decoration: none;
+
+  padding: 20px 40px;
+  background-color: #ffe745;
+  color: black;
+}

@@ -1,0 +1,23 @@
+.pizza-var-content-container{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.pizza-var-content-container span{
+  font-size: 17px;
+  margin-top: 18px;
+}
+.pizza-var-content-container .name{
+    font-size: 18px;
+  margin-top: 8px;
+}
+.pizza-var-content-container .price{
+    font-size: 15px;
+  margin-top: 6px;
+}
+.discount{
+  text-decoration: line-through;
+  color:#8A8A8A ;
+}
