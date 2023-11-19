@@ -5,6 +5,7 @@ import PizzaHouseService from "./PizzaHouseService";
 import PizzaVariations from "./PizzaVariations";
 import DiscountSaladSection from "./DiscountSaladSection";
 import TestimonialsSection from "./TestimonialsSection";
+import GridImagesSection from "./GridImagesSection";
 
 
 
@@ -16,6 +17,7 @@ return (<>
 <PizzaVariations />
 <DiscountSaladSection />
 <TestimonialsSection />
+<GridImagesSection/>
 </>);
 }
 export  default Home;

@@ -1,0 +1,75 @@
+.grid-container {
+  display: grid;
+  grid-template-rows: 1fr auto;
+  grid-template-columns: 1fr 2fr 3fr;
+  height: auto;
+  overflow: hidden;
+  column-gap: 10px;
+  position: relative;
+  margin: 0 0 0 10px;
+}
+.inside-grid-container {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 10px;
+  row-gap: 10px;
+
+}
+.cocktails {
+  grid-row: 1/2;
+  grid-column: 2/4;
+  width: 100%;
+}
+.text {
+  padding: 10px;
+  background-color: #f5f5f5;
+  margin: 0;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.text p {
+  color: #000;
+  margin: 0;
+  transition: color 0.3s ease-in-out;
+}
+.text p:hover {
+  color: #6046b6;
+}
+.text span {
+  color: #73cca1;
+}
+
+.inside-grid-container > div {
+  overflow: hidden;
+  transition: transform 0.5s ease-in-out;
+}
+.inside-grid-container div img {
+  transition: transform 0.5s ease-in-out;
+}
+.grid-container div {
+  transition: transform 0.5s ease-in-out;
+}
+.grid-container div img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  transition: transform 0.5s ease-in-out;
+}
+
+.grid-container div:hover .text {
+  opacity: 1;
+  bottom: -52%;
+}
+.grid-container .hover-child:hover > img,
+.grid-container .hover-child:hover > .text,
+.grid-container .hover-child:hover > img,
+.grid-container .hover-child:hover > .text {
+  transform: translate(0px, -100px);
+}
+.inside-grid-container div > img:hover,
+.inside-grid-container div:hover > .text {
+  transform: translate(0px, -100px);
+}
