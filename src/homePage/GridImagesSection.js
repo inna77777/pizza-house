@@ -13,14 +13,14 @@ const GridImagesSection = () => {
     <section className="mb-5">
       <div className="grid-container">
         <div className="hover-child">
-          <img src={ingredients} alt="" />
+          <img src={ingredients} alt="menu" />
           <div className="text2">
             <p>BEST INGREDIENTS</p>
             <span>TASTY PIZZA</span>
           </div>
         </div>
         <div className="hover-child">
-          <img src={interior} alt="" />
+          <img src={interior} alt="menu" />
           <div className="text2">
             <p>COMFORTABLE INTERIOR</p>
             <span>MODERN DESIGN</span>
@@ -28,35 +28,35 @@ const GridImagesSection = () => {
         </div>
         <div className="inside-grid-container">
           <div className="dishware">
-            <img src={dishware} alt="" />
+            <img src={dishware} alt="menu" />
             <div className="text2">
               <p>QUALITY DISHWARE</p>
               <span>TOP-NOTCH UTENSILS</span>
             </div>
           </div>
           <div className="cocktails">
-            <img src={cocktails} alt="" />
+            <img src={cocktails} alt="menu" />
             <div className="text2">
               <p>REFRESHING COCKTAILS</p>
               <span>EXCLUSIVE SELECTION</span>
             </div>
           </div>
           <div className="salads">
-            <img src={salads} alt="" />
+            <img src={salads} alt="menu" />
             <div className="text2">
               <p>EXOTIC SALADS</p>
               <span>SUMMER TASTE</span>
             </div>
           </div>
           <div className="pizzasTypes">
-            <img src={pizzasTypes} alt="" />
+            <img src={pizzasTypes} alt="menu" />
             <div className="text2">
               <p>ALL TYPES OF PIZZA</p>
               <span>SPECIAL RECIPES</span>
             </div>
           </div>
           <div className="diverseMenu">
-            <img src={diverseMenu} alt="" />
+            <img src={diverseMenu} alt="menu" />
             <div className="text2">
               <p>DIVERSE MENU</p>
               <span>PICK YOUR FAVORITE DISH</span>

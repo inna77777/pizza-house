@@ -23,7 +23,7 @@ const OurMenu = () => {
           onClick={() => (window.location = "/")}
         >
           <div className="image-menu">
-            <img src={salad} alt="salad-image" className="image-menu" />
+            <img src={salad} alt="menu" className="image-menu" />
           </div>
           <div className="icon-menu-div">
             <span className="text-container">
@@ -39,7 +39,7 @@ const OurMenu = () => {
           onClick={() => (window.location = "/")}
         >
           <div className="image-menu">
-            <img src={pizza} alt="salad-image" className="image-menu" />
+            <img src={pizza} alt="menu" className="image-menu" />
           </div>
           <div className="icon-menu-div">
             <span className="text-container">
@@ -55,7 +55,7 @@ const OurMenu = () => {
           onClick={() => (window.location = "/")}
         >
           <div className="image-menu">
-            <img src={burger} alt="salad-image" className="image-menu" />
+            <img src={burger} alt="menu" className="image-menu" />
           </div>
           <div className="icon-menu-div">
             <span className="text-container">
@@ -73,7 +73,7 @@ const OurMenu = () => {
           onClick={() => (window.location = "/")}
         >
           <div className="image-menu">
-            <img src={dessert} alt="salad-image" className="image-menu" />
+            <img src={dessert} alt="salad-im" className="image-menu" />
           </div>
           <div className="icon-menu-div">
             <span className="text-container">
@@ -89,7 +89,7 @@ const OurMenu = () => {
           onClick={() => (window.location = "/")}
         >
           <div className="image-menu">
-            <img src={drink} alt="salad-image" className="image-menu" />
+            <img src={drink} alt="menu" className="image-menu" />
           </div>
           <div className="icon-menu-div">
             <span className="text-container">
@@ -105,7 +105,7 @@ const OurMenu = () => {
           onClick={() => (window.location = "/")}
         >
           <div className="image-menu">
-            <img src={seaFood} alt="salad-image" className="image-menu" />
+            <img src={seaFood} alt="menu" className="image-menu" />
           </div>
           <div className="icon-menu-div">
             <span className="text-container">

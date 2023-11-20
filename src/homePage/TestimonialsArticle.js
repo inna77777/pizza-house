@@ -17,7 +17,7 @@ const TestimonialsArticle = ({
     <div className={containerStyle}>
       <p>{paragraph}</p>
       {withPhoto ? (
-        <img src={image} alt="person image" />
+        <img src={image} alt="person" />
       ) : (
         <div className="image-placeholder"></div>
       )}

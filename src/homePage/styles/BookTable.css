@@ -1,0 +1,52 @@
+.book-Section {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.book-info-section {
+  padding: 40px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+.book-info-section  input {
+border:  1px solid #E1E1E1;
+}
+.book-info-section textarea {
+  border:  1px solid #E1E1E1;
+  width: 100%;
+  margin-bottom: 20px;
+}
+.book-info-section .inputted-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.book-info-section .submit-message {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 5%;
+}
+.book-info-section .submit-message button {
+  padding: 20px 40px;
+  border: none;
+  background-color: #ffe745;
+}
+.book-info-section .submit-message .text-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5%;
+}
+.book-info-section .submit-message .text-info i {
+  font-size: 80px;
+  color: #eeeeee;
+}
+.book-info-section .submit-message .text-info span {
+  max-width: 355px;
+  font-size: 24px;
+  font-weight: 100;
+  color: #777777;
+  padding: 0;
+  margin: 0;
+}
