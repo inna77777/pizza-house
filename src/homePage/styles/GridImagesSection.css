@@ -21,7 +21,7 @@
   grid-column: 2/4;
   width: 100%;
 }
-.text {
+.text2 {
   padding: 10px;
   background-color: #f5f5f5;
   margin: 0;
@@ -30,15 +30,15 @@
   flex-direction: column;
   align-items: flex-start;
 }
-.text p {
+.text2 p {
   color: #000;
   margin: 0;
   transition: color 0.3s ease-in-out;
 }
-.text p:hover {
+.text2 p:hover {
   color: #6046b6;
 }
-.text span {
+.text2 span {
   color: #73cca1;
 }
 
@@ -59,17 +59,17 @@
   transition: transform 0.5s ease-in-out;
 }
 
-.grid-container div:hover .text {
+.grid-container div:hover .text2 {
   opacity: 1;
   bottom: -52%;
 }
 .grid-container .hover-child:hover > img,
-.grid-container .hover-child:hover > .text,
+.grid-container .hover-child:hover > .text2,
 .grid-container .hover-child:hover > img,
-.grid-container .hover-child:hover > .text {
+.grid-container .hover-child:hover > .text2 {
   transform: translate(0px, -100px);
 }
 .inside-grid-container div > img:hover,
-.inside-grid-container div:hover > .text {
+.inside-grid-container div:hover > .text2 {
   transform: translate(0px, -100px);
 }
