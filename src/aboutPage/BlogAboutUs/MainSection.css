@@ -1,0 +1,66 @@
+.content-about h2{
+font-family: "Asfalto", sans-serif;
+font-size: 36px;
+text-align: left;
+margin: 0;
+
+}
+.content-about p{
+font-size: 15px;
+margin-top: 22px;
+margin-bottom: 0;
+color: #777777;
+}
+.content-about img{
+  margin-top: 35px;
+}
+
+.links-to-content h2{
+  padding-right: 15%;
+  line-height: 40px;
+  font-size: 24px;
+  color: #151515;
+  text-align: left;
+  margin-bottom: 10px;
+}
+.links-to-content ul{
+  list-style: none;
+  padding: 0;
+}
+.links-to-content ul li {
+  position: relative;
+  padding: 20px 0;
+  border-bottom: 1px solid rgb(225, 225, 225);
+  overflow: hidden;
+}
+
+.links-to-content ul li:before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0; 
+  height: 3px;
+  background-color: #6046B6;
+  transition: width 0.7s ease-in-out;
+}
+
+.links-to-content ul li:hover:before {
+  width: 100%;
+}
+
+.links-to-content ul li a{
+  text-decoration: none;
+  color: #151515;
+  font-size: 14px;
+}
+.links-to-content .contact-us-link{
+
+  text-transform: uppercase;
+  font-weight: 600;
+  text-decoration: none;
+  color: #151515;
+  font-size: 14px;
+  padding: 25px 50px;
+  background-color: #FFE745;
+}

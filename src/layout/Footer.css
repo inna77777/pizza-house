@@ -21,6 +21,7 @@
 .info-container ul li a {
   text-decoration: none;
   color: white;
+  transition: color 0.5s ease-in-out;
 }
 .info-container ul li {
   margin-bottom: 10px;

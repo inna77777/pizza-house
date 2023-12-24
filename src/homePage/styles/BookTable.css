@@ -7,11 +7,41 @@
   padding: 40px;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
 }
-.book-info-section  input {
-border:  1px solid #E1E1E1;
+.book-info-section input{
+  flex: 1;
+  border: 1px solid #e1e1e1;
+  color: #777777;
+  padding: 16px 25px;
+  font-size: 16px;
+  border-radius: 4px;
 }
+.select {
+  font-size: 16px;
+  flex: 1;
+  height: 100%;
+ 
+}
+
+.book-info-section select {
+  padding: 17px 40px 16px 26px;
+}
+.book-info-section select:focus,
+.book-info-section input:focus,
+.book-info-section textarea:focus {
+  outline: none;
+}
+.book-info-section select:focus {
+  border-bottom: 0;
+}
+.book-info-section select option:checked {
+  background: red;
+}
+
 .book-info-section textarea {
-  border:  1px solid #E1E1E1;
+  color: #777777;
+  font-size: 16px;
+  padding: 16px 25px;
+  border: 1px solid #e1e1e1;
   width: 100%;
   margin-bottom: 20px;
 }
@@ -20,6 +50,7 @@ border:  1px solid #E1E1E1;
   justify-content: space-between;
   align-items: center;
   margin-bottom: 20px;
+  gap: 20px;
 }
 .book-info-section .submit-message {
   display: flex;
@@ -43,6 +74,7 @@ border:  1px solid #E1E1E1;
   color: #eeeeee;
 }
 .book-info-section .submit-message .text-info span {
+  font-style: italic;
   max-width: 355px;
   font-size: 24px;
   font-weight: 100;
@@ -50,3 +82,14 @@ border:  1px solid #E1E1E1;
   padding: 0;
   margin: 0;
 }
+.blabla {
+  background-color: red;
+}
+.customSelect option:hover {
+  background-color: green;
+}
+.css-13cymwt-control{
+height: 58.48px;
+border-radius: 0;
+}
+

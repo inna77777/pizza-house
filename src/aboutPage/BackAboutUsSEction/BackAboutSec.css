@@ -1,0 +1,31 @@
+.about-us-background {
+  background-image: url(../../images/about/bg-1.jpg);
+  background-size: cover;
+ background-position: center;
+  background-repeat: no-repeat;
+  height: 30vh;
+  width: 100%;
+  overflow: hidden;
+  animation: moveBackground 50s linear infinite;
+}
+.about-us-background h1 {
+  font-size: 55px;
+  margin-bottom: 30px;
+}
+.about-us-background .grey-line {
+  background-color: #b5aca9;
+  height: 5px;
+  width: 72px;
+}
+.back {
+  margin-bottom: 5%;
+  font-family: "Asfalto", sans-serif;
+}
+@keyframes moveBackground {
+  50% {
+    background-position:100% 0;
+  }
+  100% {
+    background-position: 0 100%;
+  }
+}

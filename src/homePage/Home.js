@@ -7,6 +7,7 @@ import DiscountSaladSection from "./DiscountSaladSection";
 import TestimonialsSection from "./TestimonialsSection";
 import GridImagesSection from "./GridImagesSection";
 import BookTable from "./BookTable";
+import WhatWeOffer from "./WhatWeOffer";
 
 
 
@@ -21,6 +22,7 @@ return (
     <TestimonialsSection />
     <GridImagesSection />
     <BookTable />
+    <WhatWeOffer />
   </>
 );
 }

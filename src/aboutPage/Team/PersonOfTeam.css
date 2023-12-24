@@ -1,0 +1,81 @@
+.persons {
+  position: relative;
+
+  transition: transform 0.5s ease-in-out;
+  padding: 20px 0 50px 0;
+}
+.persons h6 {
+  font-size: 18px;
+}
+.persons p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.persons .social-media-icons a i {
+  background-color: #f5f5f5;
+  padding: 8px;
+  font-size: 14px;
+  margin: 5px;
+  color: black;
+  transition: background-color 0.4s ease-in-out;
+}
+
+.persons .social-media-icons a:hover i {
+  background-color: #6046b6;
+  color: white;
+}
+
+.persons:hover {
+  box-shadow: rgba(0, 0, 0, 0.05) 4px 4px 3px 0px;
+  transform: translateY(-10%);
+}
+
+.persons .social-media-icons {
+  position: absolute;
+  bottom: 0;
+  opacity: 0;
+  display: flex;
+}
+
+.persons:hover .social-media-icons {
+  bottom: 10px;
+  opacity: 1;
+}
+
+.persons .social-media-icons a {
+  transform: translateY(20px);
+  opacity: 0;
+  transition: transform 0.5s ease, opacity 0.5s ease;
+}
+
+.persons:hover .social-media-icons a {
+  animation: fadeInUp 0.5s forwards;
+}
+
+.persons:hover .social-media-icons a:nth-child(1) {
+  animation-delay: 0.05s;
+
+}
+
+.persons:hover .social-media-icons a:nth-child(2) {
+  animation-delay: 0.10s;
+
+}
+
+.persons:hover .social-media-icons a:nth-child(3) {
+  animation-delay: 0.15s;
+
+}
+
+.persons:hover .social-media-icons a:nth-child(4) {
+  animation-delay: 0.20s;
+
+}
+
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

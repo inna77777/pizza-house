@@ -1,0 +1,88 @@
+.offers {
+  margin: 10% 0;
+}
+.offers .small-line {
+  height: 30px;
+  width: 4px;
+  background-color: #eeeeee;
+  border-radius: 4px;
+  margin: 0 10px 0 10px;
+  transition: transform 0.3s ease-in-out;
+}
+.offers .big-line {
+  height: 60px;
+  width: 4px;
+  background-color: #eeeeee;
+  border-radius: 4px;
+  margin: 0 10px 0 10px;
+  transition: transform 0.3s ease-in-out;
+}
+.offers i {
+  font-size: 50px;
+  margin: 0 20px 0 20px;
+  color: #6046b6;
+  transition: color 0.4s ease-in-out;
+}
+
+.offers .cards {
+  max-width: 25%;
+  border-radius: 10px;
+  transition: box-shadow 0.3s ease-in-out;
+}
+.offers p {
+  padding: 0 10%;
+}
+.offers .cards:hover {
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+}
+.offers .cards:hover i {
+  color: #73cca1;
+}
+
+.offers .cards:hover .small-line {
+  animation: rotateHeight 0.3s;
+  animation-fill-mode: forwards;
+  transform: rotate(90deg);
+  background-color: #73cca1;
+  border-radius: 0;
+transform-origin: center;
+}
+
+.offers .cards .cards-body {
+  padding: 15% 0;
+}
+.offers h3 {
+  transition: color 0.4s ease-in-out;
+}
+.offers h3:hover {
+  color: #6046b6;
+}
+
+.body-i {
+  border-left: 4px solid #eeeeee;
+  border-right: 4px solid #eeeeee;
+  transition: transform 0.3s ease-in-out;
+}
+
+.offers .cards:hover .body-i {
+  transform: rotate(180deg);
+  border-left: 4px solid #73cca1;
+  border-right: 4px solid #73cca1;
+}
+.offers .icon-container-offers {
+  display: inline-block; 
+}
+@keyframes rotateHeight {
+  0% {
+    height: 1px;
+  }
+  50% {
+    height: 15px;
+  }
+
+  100% {
+    height: 25px;
+  }
+}
+
+

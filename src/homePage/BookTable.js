@@ -1,7 +1,15 @@
 import React from "react";
 import "./styles/BookTable.css";
+import Select from "react-select";
 
 const BookTable = () => {
+  const options = [
+    { value: "", label: "Select Service", isDisabled: true },
+    { value: "Dine-In", label: "Dine-In" },
+    { value: "Carry-out", label: "Carry-out" },
+    { value: "Event-Catering", label: "Event Catering" },
+  ];
+
   return (
     <section className="mb-5">
       <div className="containerOur">
@@ -14,21 +22,16 @@ const BookTable = () => {
 
                 <input type="email" name="email" value="Your E-mail*" />
 
-                <select name="select-service" defaultValue="">
-                  <option value="" disabled hidden>
-                    Select Service
-                  </option>
-                  <option value="">Dine-In</option>
-                  <option value="">Carry-out</option>
-                  <option value="">Event Catering</option>
-                </select>
+                <Select options={options} className="select"/>
               </div>
               <textarea value="Message" cols="30" rows="10"></textarea>
               <div className="submit-message">
                 <button>Send message</button>
                 <div className="text-info">
                   <i class="fa-solid fa-quote-left"></i>
-                  <span>Please reserve your table at least 1 day in advance.</span>
+                  <span>
+                    Please reserve your table at least 1 day in advance.
+                  </span>
                 </div>
               </div>
             </div>
