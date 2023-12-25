@@ -1,0 +1,33 @@
+.reviews-text h2{
+  font-family: "Asfalto", sans-serif;
+  font-size: 55px;
+  text-align: left;
+  margin-bottom: 10px;
+}
+.reviews-text p{
+  font-style: italic;
+  font-size: 24px;
+  font-weight: 300;
+  color: #777777;
+}
+.reviews-text h5{
+  font-size: 24px;
+  margin-top: 28px;
+}
+.reviews-text h6{
+  color: #EEA660;
+  font-size: 15px;
+  margin-top: 8px;
+}
+.persons-pictures{
+  margin-top: 10px;
+}
+.persons-pictures img{
+border-radius: 50%;
+}
+.persons-pictures img.selected{
+  opacity: 1;
+}
+.persons-pictures img{
+  opacity: 0.5;
+}

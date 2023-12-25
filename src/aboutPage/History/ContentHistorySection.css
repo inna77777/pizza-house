@@ -1,0 +1,52 @@
+
+.our-history-content h2 {
+  font-family: "Asfalto", sans-serif;
+  font-size: 34px;
+  color: #151515;
+}
+.our-history-content h5 {
+  font-size: 24px;
+  color: #151515;
+}
+.our-history-content p {
+  font-size: 15px;
+  color: #777777;
+}
+.history-chronology {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0;
+  margin: 0;
+}
+.history-chronology .chronology-lines {
+  width: 20%;
+  height: 5px;
+  background-color: #6046b6;
+  margin-right: -1px;
+}
+.history-chronology .circle {
+  position: relative;
+  width: 38px;
+  height: 38px;
+  padding: 10px;
+  border-radius: 70%;
+  border: 5px solid #6046b6;
+  margin-right: -1px;
+  cursor: pointer;
+}
+.history-chronology .circle .little-circle {
+  background-color: #6046b6;
+  padding: 4px;
+  border-radius: 70%;
+}
+
+.year {
+  position: absolute;
+  left: -7px;
+  bottom: -40px;
+}
+.year h4 {
+  font-size: 18px;
+  color: #151515;
+}

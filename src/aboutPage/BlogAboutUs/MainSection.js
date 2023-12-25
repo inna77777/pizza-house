@@ -6,7 +6,7 @@ import "./MainSection.css";
 
 const MainSection =()=> {
   return (
-    <div className="containerOur">
+    <div className="containerOur my-5">
       <div className="row text-start">
         <div className="col-8 content-about">
           <MainContent />

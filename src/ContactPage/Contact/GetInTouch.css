@@ -1,0 +1,89 @@
+.get-in-touch-section {
+  display: flex;
+  flex-direction: column;
+
+}
+.get-in-touch-info-section {
+  padding: 40px;
+
+}
+.get-in-touch-info-section input {
+  flex: 1;
+  border: 1px solid #e1e1e1;
+  color: #777777;
+  padding: 16px 25px;
+  font-size: 16px;
+  border-radius: 4px;
+}
+.get-in-touch-select {
+  font-size: 16px;
+  flex: 1;
+  height: 100%;
+}
+
+.get-in-touch-info-section select {
+  padding: 17px 40px 16px 26px;
+}
+.get-in-touch-info-section select:focus,
+.get-in-touch-info-section input:focus,
+.get-in-touch-info-section textarea:focus {
+  outline: none;
+}
+.get-in-touch-info-section select:focus {
+  border-bottom: 0;
+}
+.get-in-touch-info-section select option:checked {
+  background: red;
+}
+
+.get-in-touch-info-section textarea {
+  color: #777777;
+  font-size: 16px;
+  padding: 16px 25px;
+  border: 1px solid #e1e1e1;
+  width: 100%;
+  margin-bottom: 20px;
+}
+.get-in-touch-info-section .get-in-touch-inputted-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  gap: 20px;
+}
+.get-in-touch-info-section .submit-message {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 5%;
+}
+.get-in-touch-info-section .submit-message button {
+  padding: 20px 40px;
+  border: none;
+  background-color: #ffe745;
+}
+.get-in-touch-info-section .submit-message .text-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5%;
+}
+.get-in-touch-info-section .submit-message .text-info i {
+  font-size: 80px;
+  color: #eeeeee;
+}
+.get-in-touch-info-section .submit-message .text-info span {
+  font-style: italic;
+  max-width: 355px;
+  font-size: 24px;
+  font-weight: 100;
+  color: #777777;
+  padding: 0;
+  margin: 0;
+}
+.blabla {
+  background-color: red;
+}
+.customSelect option:hover {
+  background-color: green;
+}

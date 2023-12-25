@@ -1,14 +1,14 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./Header.css";
-import logo from "../images/logo-198x66.png";
+import logo from "../images/logo-198x66.png"
 
 const Header = () => {
   return (
     <nav className="nav-bar">
       <div className="containerOur nav-container">
         <div className="logo">
-          <img className="logo-img" src={logo} alt="logo Pizza House" />
+          <img src={logo} alt="logo Pizza House" className="logo-image" />
         </div>
         <div className="right-panel">
           <div className="contact-info">

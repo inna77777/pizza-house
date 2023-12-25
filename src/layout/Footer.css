@@ -47,19 +47,18 @@
   padding: 16px 25px 15.5px 25px;
   background-color: #565758;
   border: none;
+  outline: none;
+  height: 55.5px;
 }
 ::placeholder {
   color: #fff;
 }
 .email-input:focus,
 .email-input:active {
-  padding: 15px 25px 15.5px 24px;
-  border: 1px solid #fff;
-  outline: none;
+  outline: 0.5px solid #fff;
 }
 .button-email1 {
-
-  padding: 17.5px 25px 16px 25px;
+  padding: 19px 25px 18px 25px;
   background-color: #ffe745;
   border: none;
   font-size: 12px;
