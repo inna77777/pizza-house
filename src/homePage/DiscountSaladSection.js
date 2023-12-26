@@ -21,7 +21,9 @@ const DiscountSaladSection =()=>{
                   <div></div>
                   <div>Taste some of the best PizzaHouse salads!</div>
                 </div>
-                <a href="/">CONTACT US</a>
+               
+                  <a href="/">CONTACT US</a>
+               
               </div>
             </div>
             <div class="col-1"></div>

@@ -1,22 +1,35 @@
+.our-history {
+  min-width: 585px;
+}
 
 .our-history-content h2 {
   font-family: "Asfalto", sans-serif;
-  font-size: 34px;
+  font-size: 55px;
   color: #151515;
+  text-align: left;
+  margin-bottom: 30px;
 }
 .our-history-content h5 {
   font-size: 24px;
   color: #151515;
+  max-width: 500px;
 }
 .our-history-content p {
   font-size: 15px;
+  margin-top: 30px;
+  max-width: 520px;
   color: #777777;
 }
 .history-chronology {
   display: flex;
   align-items: center;
   justify-content: flex-start;
+  position: absolute;
+  bottom: 20%;
+  left: 0;
+  right: 20px;
   padding: 0;
+  padding-right: 60px;
   margin: 0;
 }
 .history-chronology .chronology-lines {
@@ -27,8 +40,6 @@
 }
 .history-chronology .circle {
   position: relative;
-  width: 38px;
-  height: 38px;
   padding: 10px;
   border-radius: 70%;
   border: 5px solid #6046b6;
@@ -39,14 +50,32 @@
   background-color: #6046b6;
   padding: 4px;
   border-radius: 70%;
+  display: none;
+}
+.history-chronology .circle.active .little-circle {
+  display: block;
 }
 
 .year {
   position: absolute;
   left: -7px;
-  bottom: -40px;
+  bottom: -10px;
+  right: 0;
+  top: 40px;
 }
 .year h4 {
   font-size: 18px;
   color: #151515;
+}
+
+.div-container {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+.history-chronology .circle.active .year {
+  left: -6px;
+  bottom: -10px;
+  right: 0;
+  top: 45px;
 }

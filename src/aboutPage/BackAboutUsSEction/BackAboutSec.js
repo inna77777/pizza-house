@@ -15,7 +15,7 @@ const BackAboutSec = () => {
         style={{ backgroundColor: "#F3F3F3" }}
       >
         <a
-          href="../../Home.js"
+          href="/"
           className="text-decoration-none mx-3 fs-5 fw-medium"
           style={{ color: "#777777" }}
         >

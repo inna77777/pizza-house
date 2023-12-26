@@ -10,29 +10,49 @@ const GetInTouch = () => {
     { value: "Event-Catering", label: "Event Catering" },
   ];
 
+  const styleContainer = {
+    control: (provided) => ({
+      ...provided,
+      "&:hover": null,
+      border: "1px solid #e1e1e1",
+      borderRadius: "4px",
+      height: "58px",
+      boxShadow: null,
+      outline: null,
+    }),
+  };
+
   return (
     <div className="mb-5">
-      <div className="containerOur">
+      <div>
         <div className="get-in-touch-section">
-          <h2>BOOK YOUR TABLE</h2>
+          <h2>GET IN TOUCH</h2>
           <div>
             <div className="get-in-touch-info-section">
               <div className="get-in-touch-inputted-info">
-                <input type="text" value="Your Name*" />
+                <div className="row row-gap-3">
+                  <div className="col-6 p-0 pe-1">
+                    <input type="text" value="Your Name*" />
+                  </div>
+                  <div className="col-6 p-0 ps-1">
+                    <input type="email" name="email" value="Your E-mail*" />
+                  </div>
+                  <div className="col-6 p-0 pe-1">
+                    <Select
+                      styles={styleContainer}
+                      options={options}
+                    />
+                  </div>
 
-                <input type="email" name="email" value="Your E-mail*" />
-
-                <Select options={options} className="get-in-touch-select" />
+                  <div className="col-6 p-0 ps-1">
+                    <input type="tel" name="phone" value="Your Phone*" />
+                  </div>
+                </div>
               </div>
+
               <textarea value="Message" cols="30" rows="10"></textarea>
               <div className="submit-message">
-                <button>Send message</button>
-                <div className="text-info">
-                  <i class="fa-solid fa-quote-left"></i>
-                  <span>
-                    Please reserve your table at least 1 day in advance.
-                  </span>
-                </div>
+                <button>Contact Us</button>
               </div>
             </div>
           </div>

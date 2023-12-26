@@ -9,14 +9,7 @@
   margin: 0 10px 0 10px;
   transition: transform 0.3s ease-in-out;
 }
-.offers .big-line {
-  height: 60px;
-  width: 4px;
-  background-color: #eeeeee;
-  border-radius: 4px;
-  margin: 0 10px 0 10px;
-  transition: transform 0.3s ease-in-out;
-}
+
 .offers i {
   font-size: 50px;
   margin: 0 20px 0 20px;
@@ -45,11 +38,12 @@
   transform: rotate(90deg);
   background-color: #73cca1;
   border-radius: 0;
-transform-origin: center;
+  transform-origin: center;
 }
 
 .offers .cards .cards-body {
   padding: 15% 0;
+  position: relative;
 }
 .offers h3 {
   transition: color 0.4s ease-in-out;
@@ -59,19 +53,31 @@ transform-origin: center;
 }
 
 .body-i {
+  position: relative;
+}
+
+.b-lines {
+  position: absolute;
   border-left: 4px solid #eeeeee;
   border-right: 4px solid #eeeeee;
   transition: transform 0.3s ease-in-out;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
 }
 
-.offers .cards:hover .body-i {
+.offers .cards:hover .body-i .b-lines {
   transform: rotate(180deg);
   border-left: 4px solid #73cca1;
   border-right: 4px solid #73cca1;
 }
-.offers .icon-container-offers {
-  display: inline-block; 
+
+
+.smLines {
+  position: absolute;
 }
+
 @keyframes rotateHeight {
   0% {
     height: 1px;
@@ -84,5 +90,3 @@ transform-origin: center;
     height: 25px;
   }
 }
-
-

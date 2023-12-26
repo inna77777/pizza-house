@@ -59,17 +59,11 @@
   transition: transform 0.5s ease-in-out;
 }
 
-.grid-container div:hover .text2 {
-  opacity: 1;
-  bottom: -52%;
-}
-.grid-container .hover-child:hover > img,
-.grid-container .hover-child:hover > .text2,
 .grid-container .hover-child:hover > img,
 .grid-container .hover-child:hover > .text2 {
   transform: translate(0px, -100px);
 }
-.inside-grid-container div > img:hover,
+.inside-grid-container div:hover > img,
 .inside-grid-container div:hover > .text2 {
   transform: translate(0px, -100px);
 }

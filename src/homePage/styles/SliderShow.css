@@ -4,7 +4,6 @@
   background-position: center;
   width: 100vw;
   height: 100vh;
-  box-sizing: content-box;
 }
 .pizza-info {
   color: white;
@@ -58,15 +57,23 @@
 }
 .info-pizza h1 {
   font-size: 130px;
+  font-family: "Asfalto", sans-serif;
 }
 .info-pizza p {
   font-size: 18px;
   margin-top: 24px;
-  margin-bottom: 70px;
+  margin-bottom: 50px;
+  max-width: 400px;
+}
+.container-pizza {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  width: 1170px;
 }
 .container-pizza a {
   text-decoration: none;
-
   padding: 20px 40px;
   background-color: #ffe745;
   color: black;

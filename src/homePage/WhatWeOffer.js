@@ -11,11 +11,8 @@ const WhatWeOffer = () => {
               <div className="d-flex justify-content-center align-items-center mb-4">
                 <div className="small-line"></div>
                 <div className="body-i mx-3">
-                  <div className="icon-container-offers">
-                    <div className="icons-offers">
-                      <i class="fa-solid fa-bag-shopping"></i>
-                    </div>
-                  </div>
+                  <i class="fa-solid fa-bag-shopping"></i>
+                  <div className="b-lines"></div>
                 </div>
 
                 <div className="small-line"></div>
@@ -31,9 +28,10 @@ const WhatWeOffer = () => {
             <div className="cards-body">
               <div className="d-flex justify-content-center align-items-center mb-4">
                 <div className="small-line"></div>
-                <div className="big-line"></div>
-                <i class="fa-regular fa-map"></i>
-                <div className="big-line"></div>
+                <div className="body-i mx-3">
+                  <i class="fa-regular fa-map"></i>
+                  <div className="b-lines"></div>
+                </div>
                 <div className="small-line"></div>
               </div>
               <h3 className="mb-4">Convenient Location</h3>
@@ -47,9 +45,10 @@ const WhatWeOffer = () => {
             <div className="cards-body">
               <div className="d-flex justify-content-center align-items-center mb-4">
                 <div className="small-line"></div>
-                <div className="big-line"></div>
-                <i class="fa-solid fa-wifi"></i>
-                <div className="big-line"></div>
+                <div className="body-i mx-3">
+                  <i class="fa-solid fa-wifi"></i>
+                  <div className="b-lines"></div>
+                </div>
                 <div className="small-line"></div>
               </div>
               <h3 className="mb-4">Free Wi-Fi</h3>
@@ -63,9 +62,10 @@ const WhatWeOffer = () => {
             <div className="cards-body">
               <div className="d-flex justify-content-center align-items-center mb-4">
                 <div className="small-line"></div>
-                <div className="big-line"></div>
-                <i class="fa-regular fa-thumbs-up"></i>
-                <div className="big-line"></div>
+                <div className="body-i mx-3">
+                  <i class="fa-regular fa-thumbs-up"></i>
+                  <div className="b-lines"></div>
+                </div>
                 <div className="small-line"></div>
               </div>
               <h3 className="mb-4">Best Service</h3>

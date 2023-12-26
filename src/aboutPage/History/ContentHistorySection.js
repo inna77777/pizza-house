@@ -29,40 +29,57 @@ const ContentHistorySection = () => {
     setYear(index);
   };
   return (
-    <div className="d-flex flex-column py-5">
-      <div className="containerOur our-history d-flex justify-content-center align-items-center mb-5">
-        <div className="our-history-content">
-          <h2>OUR HISTORY</h2>
-          <h5>{historyData[year].event}</h5>
-          <p>{historyData[year].description}</p>
+    <div>
+      <div className="div-container">
+        <div className="our-history mb-5">
+          <div className="our-history-content">
+            <h2>OUR HISTORY</h2>
+            <h5>{historyData[year].event}</h5>
+            <p>{historyData[year].description}</p>
+          </div>
         </div>
       </div>
 
       <div className="history-chronology">
         <div className="chronology-lines"></div>
 
-        <div className="circle" onClick={() => changeData(0)}>
+        <div
+          className={`circle ${year === 0 && "active"}`}
+          onClick={() => changeData(0)}
+        >
           {year === 0 && <div className="little-circle"></div>}
           <div className="year">
             <h4>2005</h4>
           </div>
         </div>
         <div className="chronology-lines"></div>
-        <div className="circle" onClick={() => changeData(1)}>
+
+        <div
+          className={`circle ${year === 1 && "active"}`}
+          onClick={() => changeData(1)}
+        >
           {year === 1 && <div className="little-circle"></div>}
           <div className="year">
             <h4>2012</h4>
           </div>
         </div>
         <div className="chronology-lines"></div>
-        <div className="circle" onClick={() => changeData(2)}>
+
+        <div
+          className={`circle ${year === 2 && "active"}`}
+          onClick={() => changeData(2)}
+        >
           {year === 2 && <div className="little-circle"></div>}
           <div className="year">
             <h4>2015</h4>
           </div>
         </div>
         <div className="chronology-lines"></div>
-        <div className="circle" onClick={() => changeData(3)}>
+
+        <div
+          className={`circle ${year === 3 && "active"}`}
+          onClick={() => changeData(3)}
+        >
           {year === 3 && <div className="little-circle"></div>}
           <div className="year">
             <h4>2019</h4>

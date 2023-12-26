@@ -3,6 +3,12 @@
   flex-direction: column;
   width: 100%;
 }
+.book-Section h2{
+  font-size: 55px ;
+  font-family: "Asfalto", sans-serif;
+  text-align: center;
+  margin-bottom: 50px;
+}
 .book-info-section {
   padding: 40px;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
@@ -15,26 +21,9 @@
   font-size: 16px;
   border-radius: 4px;
 }
-.select {
-  font-size: 16px;
-  flex: 1;
-  height: 100%;
- 
-}
-
-.book-info-section select {
-  padding: 17px 40px 16px 26px;
-}
-.book-info-section select:focus,
 .book-info-section input:focus,
 .book-info-section textarea:focus {
   outline: none;
-}
-.book-info-section select:focus {
-  border-bottom: 0;
-}
-.book-info-section select option:checked {
-  background: red;
 }
 
 .book-info-section textarea {
@@ -82,14 +71,6 @@
   padding: 0;
   margin: 0;
 }
-.blabla {
-  background-color: red;
+.select{
+  flex: 1;
 }
-.customSelect option:hover {
-  background-color: green;
-}
-.css-13cymwt-control{
-height: 58.48px;
-border-radius: 0;
-}
-

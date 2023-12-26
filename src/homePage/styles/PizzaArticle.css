@@ -1,23 +1,68 @@
-.pizza-var-content-container{
+.pizza-var-content-container {
   width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
 }
-.pizza-var-content-container span{
+.pizza-var-content-container span {
   font-size: 17px;
   margin-top: 18px;
 }
-.pizza-var-content-container .name{
-    font-size: 18px;
+.pizza-var-content-container .name {
+  font-size: 18px;
   margin-top: 8px;
 }
-.pizza-var-content-container .price{
-    font-size: 15px;
+.pizza-var-content-container .price {
+  font-size: 15px;
   margin-top: 6px;
 }
-.discount{
+.discount {
   text-decoration: line-through;
-  color:#8A8A8A ;
+  color: #8a8a8a;
 }
+.pizzas-buttons div a {
+  top: 50%;
+  left: 18%;
+  text-decoration: none;
+  color: #151515;
+  text-transform: uppercase;
+  font-size: 14px;
+  background-color: rgb(255, 231, 69);
+  line-height: 2.17;
+  padding: 12px 25px;
+  font-weight: 500;
+}
+.relative-pizza-container {
+  position: relative;
+  transition: opacity 0.3s ease-in-out;
+}
+.pizzas-buttons {
+  position: absolute;
+  transition: display 0.3s ease-in-out;
+  opacity: 0;
+
+}
+.add {
+  transform: translate(40px, 0);
+  transition: transform 0.2s ease-in-out;
+}
+.view {
+  transform: translate(-40px, 0);
+   transition: transform 0.2s ease-in-out;
+}
+.relative-pizza-container:hover .add,
+.relative-pizza-container:hover .view {
+  transform: translate(0, 0);
+}
+.relative-pizza-container:hover .pizzas-buttons{
+  opacity: 1;
+}
+
+.relative-pizza-container:hover {
+  opacity: 0.3;
+}
+/* .relative-pizza-container:hover .pizzas-buttons {
+  display: block;
+  opacity: 1;
+} */

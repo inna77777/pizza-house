@@ -3,8 +3,12 @@
   flex-direction: column;
 
 }
+.get-in-touch-section h2{
+  text-align: left;
+  font-family: "Asfalto",sans-serif;
+}
 .get-in-touch-info-section {
-  padding: 40px;
+  padding-right: 40px;
 
 }
 .get-in-touch-info-section input {
@@ -14,6 +18,7 @@
   padding: 16px 25px;
   font-size: 16px;
   border-radius: 4px;
+  width: 100%;
 }
 .get-in-touch-select {
   font-size: 16px;
@@ -48,7 +53,6 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 20px;
   gap: 20px;
 }
 .get-in-touch-info-section .submit-message {
@@ -62,28 +66,4 @@
   border: none;
   background-color: #ffe745;
 }
-.get-in-touch-info-section .submit-message .text-info {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 5%;
-}
-.get-in-touch-info-section .submit-message .text-info i {
-  font-size: 80px;
-  color: #eeeeee;
-}
-.get-in-touch-info-section .submit-message .text-info span {
-  font-style: italic;
-  max-width: 355px;
-  font-size: 24px;
-  font-weight: 100;
-  color: #777777;
-  padding: 0;
-  margin: 0;
-}
-.blabla {
-  background-color: red;
-}
-.customSelect option:hover {
-  background-color: green;
-}
+

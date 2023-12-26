@@ -2,13 +2,11 @@ import React from "react";
 import "./HistorySection.css";
 import ContentHistorySection from "./ContentHistorySection";
 
-
-
-const HistorySection =()=>{
+const HistorySection = () => {
   return (
     <section className="history-section">
       <div className="row mb-5">
-        <div className="col-6 py-5 pe-5 ps-0">
+        <div className="col-6 " style={{padding:"90px 0px", position:"relative"}}>
           <ContentHistorySection />
         </div>
         <div className="col-6 move-container">
@@ -17,5 +15,5 @@ const HistorySection =()=>{
       </div>
     </section>
   );
-}
-export default HistorySection; 
+};
+export default HistorySection;

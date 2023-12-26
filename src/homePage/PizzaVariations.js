@@ -12,8 +12,11 @@ const PizzaVariations = () => {
       <div className="containerOur">
         <h2>SELECTED PIZZAS</h2>
 
-        <div className="row">
-          <div className="col">
+        <div className="row d-flex justify-content-center align-items-center flex-md-row flex-column row-gap-4">
+          <div
+            className="col-lg-3 col-md-6 col-12"
+            style={{ maxWidth: "300px" }}
+          >
             <div className="pizza-var-container">
               <PizzaArticle
                 image={Margherita}
@@ -23,7 +26,10 @@ const PizzaVariations = () => {
               />
             </div>
           </div>
-          <div className="col">
+          <div
+            className="col-lg-3 col-md-6 col-12"
+            style={{ maxWidth: "300px" }}
+          >
             <div className="pizza-var-container container-mashroom-pizza">
               <div className="new">
                 <p>NEW</p>
@@ -36,7 +42,10 @@ const PizzaVariations = () => {
               />
             </div>
           </div>
-          <div className="col">
+          <div
+            className="col-lg-3 col-md-6 col-12"
+            style={{ maxWidth: "300px" }}
+          >
             <div className="pizza-var-container">
               <PizzaArticle
                 image={HawaiianPizza}
@@ -46,8 +55,11 @@ const PizzaVariations = () => {
               />
             </div>
           </div>
-          <div className="col">
-            <div className="pizza-var-container container-pesto-pizza ">
+          <div
+            className="col-lg-3 col-md-6 col-12"
+            style={{ maxWidth: "300px" }}
+          >
+            <div className="pizza-var-container container-pesto-pizza">
               <div className="sale">
                 <p>SALE</p>
               </div>

@@ -8,8 +8,6 @@
   padding: 100px 0;
   position: relative;
   overflow: hidden;
-
-
 }
 .discount-section::before {
   content: "";
@@ -24,16 +22,59 @@
 .discount-section * {
   z-index: 2;
 }
+
 .discount-main a {
-  color: #000;
+  color: #151515;
   font-weight: 500;
   text-decoration: none;
-  padding: 17px 40px;
+  font-weight: bold;
+  padding: 30px 55px;
   background-color: #ffe745;
   margin-top: 40px;
+  border: none;
+  transition: background-color 0.2s ease-in-out;
+  visibility: visible;
+  animation-delay: 0.2s;
+  animation-name: fadeInUp;
 }
-.discount-main {
 
+.discount-main a:hover {
+  background-color: #73cca1;
+  color: #fff;
+}
+@keyframes button {
+  50% {
+    opacity: 0;
+    transform: translate3d(40px, 0px, 0px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}
+@keyframes fadeInUp {
+  50% {
+    opacity: 0;
+    transform: translate3d(0px, 40px, 0px);
+  }
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}
+@keyframes fadeInDown {
+  0% {
+    opacity: 0;
+    transform: translate3d(0px, -40px, 0px);
+  }
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.discount-main {
   overflow: hidden;
   width: 100%;
   height: 100%;
@@ -44,6 +85,7 @@
 }
 .discount-main h2 {
   font-size: 45px;
+  font-family: "Asfalto", sans-serif;
   text-align: left;
 }
 .discount-main p {

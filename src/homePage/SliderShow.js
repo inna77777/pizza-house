@@ -13,22 +13,21 @@ const SliderShow = () => {
             </div>
           </div>
 
-          <div className="container container-pizza">
-            <div class="container ">
-              <div class="row">
-                <div class="col-4">
-                  <div className="info-pizza">
-                    <h1>PERFECT PIZZA</h1>
-                    <p>
-                      Experience the taste of a perfect pizza at PizzaHouse, one
-                      of the best restaurants!
-                    </p>
-                    <a href="/">VIEW OUR MENU</a>
-                  </div>
+          <div className="container-pizza d-flex justify-content-start align-items-start">
+            <div class="row d-flex justify-content-start align-items-start">
+              <div class="col-12 p-0">
+                <div className="info-pizza">
+                  <h1>PERFECT PIZZA</h1>
+                  <p className="pe-5">
+                    Experience the taste of a perfect pizza at PizzaHouse, one
+                    of the best restaurants!
+                  </p>
+                  <a href="/">VIEW OUR MENU</a>
                 </div>
               </div>
             </div>
           </div>
+
           <div className="button2">
             <div>
               <i class="fa-solid fa-arrow-right"></i>
@@ -40,4 +39,3 @@ const SliderShow = () => {
   );
 };
 export default SliderShow;
-

@@ -9,6 +9,17 @@ const BookTable = () => {
     { value: "Carry-out", label: "Carry-out" },
     { value: "Event-Catering", label: "Event Catering" },
   ];
+  const styleContainer = {
+    control: (provided) => ({
+      ...provided,
+      "&:hover": null,
+      border: "1px solid #e1e1e1",
+      borderRadius: "4px",
+      height: "58px",
+      boxShadow: null,
+      outline: null,
+    }),
+  };
 
   return (
     <section className="mb-5">
@@ -21,8 +32,7 @@ const BookTable = () => {
                 <input type="text" value="Your Name*" />
 
                 <input type="email" name="email" value="Your E-mail*" />
-
-                <Select options={options} className="select"/>
+                <Select options={options} styles={styleContainer} className="select"/>
               </div>
               <textarea value="Message" cols="30" rows="10"></textarea>
               <div className="submit-message">

@@ -42,7 +42,7 @@ color: #777777;
   width: 0; 
   height: 3px;
   background-color: #6046B6;
-  transition: width 0.7s ease-in-out;
+  transition: width 0.4s ease-in-out;
 }
 
 .links-to-content ul li:hover:before {
