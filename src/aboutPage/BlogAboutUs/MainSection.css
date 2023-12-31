@@ -1,21 +1,20 @@
-.content-about h2{
-font-family: "Asfalto", sans-serif;
-font-size: 36px;
-text-align: left;
-margin: 0;
-
+.content-about h2 {
+  font-family: "Asfalto", sans-serif;
+  font-size: 36px;
+  text-align: left;
+  margin: 0;
 }
-.content-about p{
-font-size: 15px;
-margin-top: 22px;
-margin-bottom: 0;
-color: #777777;
+.content-about p {
+  font-size: 15px;
+  margin-top: 22px;
+  margin-bottom: 0;
+  color: #777777;
 }
-.content-about img{
+.content-about img {
   margin-top: 35px;
 }
 
-.links-to-content h2{
+.links-to-content h2 {
   padding-right: 15%;
   line-height: 40px;
   font-size: 24px;
@@ -23,7 +22,7 @@ color: #777777;
   text-align: left;
   margin-bottom: 10px;
 }
-.links-to-content ul{
+.links-to-content ul {
   list-style: none;
   padding: 0;
 }
@@ -39,9 +38,9 @@ color: #777777;
   position: absolute;
   bottom: 0;
   left: 0;
-  width: 0; 
+  width: 0;
   height: 3px;
-  background-color: #6046B6;
+  background-color: #6046b6;
   transition: width 0.4s ease-in-out;
 }
 
@@ -49,18 +48,20 @@ color: #777777;
   width: 100%;
 }
 
-.links-to-content ul li a{
+.links-to-content ul li a {
   text-decoration: none;
   color: #151515;
   font-size: 14px;
 }
-.links-to-content .contact-us-link{
-
-  text-transform: uppercase;
-  font-weight: 600;
-  text-decoration: none;
+#contact-us-button {
+    padding: 25px 50px;
   color: #151515;
-  font-size: 14px;
-  padding: 25px 50px;
-  background-color: #FFE745;
+  background-color: #ffe745;
+  border-color: #6046b6;
+}
+#contact-us-button:hover,
+#contact-us-button:active {
+  color: #ffffff;
+  background-color: #73cca1;
+  border-color: #73cca1;
 }

@@ -71,9 +71,10 @@ const Footer = () => {
                 placeholder="Enter your E-mail"
                 className="email-input"
               />
-              <button className="button-email1 button">
-                <span>SUBSCRIBE</span>
-              </button>
+              <a href="google.com" class="button  button-winona" id="button-email">
+                <div class="content-original">SUBSCRIBE</div>
+                <div class="content-dubbed">SUBSCRIBE</div>
+              </a>
             </div>
           </div>
         </div>

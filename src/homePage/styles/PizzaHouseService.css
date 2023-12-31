@@ -21,12 +21,18 @@
 .service * {
   z-index: 2;
 }
-.service-main a {
-  color: white;
-  text-decoration: none;
-  padding: 17px 40px;
-  background-color: #31af36;
+#button-service {
+  color: #ffffff;
+  background-color: #73cca1;
+  border-color: #73cca1;
+  padding: 25px 31px;
   margin-top: 40px;
+}
+#button-service:hover,
+#button-service:active {
+  color: #151515;
+  background-color: #ffe745;
+   border-color: #6046b6;
 }
 .service-main {
   overflow: hidden;
@@ -40,6 +46,7 @@
 }
 .service-main h2 {
   font-size: 55px;
+  font-family: "Asfalto",sans-serif;
 }
 .service-main p {
   margin-top: 14px;
@@ -54,7 +61,7 @@
   color: #756f70;
   font-size: 18px;
 }
-.service-main .founder div:first-child {
+.service-main .founder .line {
   width: 40px;
   height: 3px;
   background-color: #ffe745;

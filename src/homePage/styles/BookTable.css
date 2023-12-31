@@ -3,8 +3,8 @@
   flex-direction: column;
   width: 100%;
 }
-.book-Section h2{
-  font-size: 55px ;
+.book-Section h2 {
+  font-size: 55px;
   font-family: "Asfalto", sans-serif;
   text-align: center;
   margin-bottom: 50px;
@@ -13,8 +13,8 @@
   padding: 40px;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
 }
-.book-info-section input{
-  flex: 1;
+.book-info-section input {
+  width: 100%;
   border: 1px solid #e1e1e1;
   color: #777777;
   padding: 16px 25px;
@@ -47,10 +47,20 @@
   align-items: center;
   gap: 5%;
 }
-.book-info-section .submit-message button {
-  padding: 20px 40px;
-  border: none;
+
+#send-message-button {
+  color: #151515;
   background-color: #ffe745;
+  border-color: #6046b6;
+
+  padding: 30px;
+  margin-top: 40px;
+}
+#send-message-button:hover,
+#send-message-button:active {
+  color: #ffffff;
+  background-color: #73cca1;
+  border-color: #73cca1;
 }
 .book-info-section .submit-message .text-info {
   display: flex;
@@ -71,6 +81,6 @@
   padding: 0;
   margin: 0;
 }
-.select{
+.select {
   flex: 1;
 }

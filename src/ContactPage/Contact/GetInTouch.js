@@ -38,10 +38,7 @@ const GetInTouch = () => {
                     <input type="email" name="email" value="Your E-mail*" />
                   </div>
                   <div className="col-6 p-0 pe-1">
-                    <Select
-                      styles={styleContainer}
-                      options={options}
-                    />
+                    <Select styles={styleContainer} options={options} />
                   </div>
 
                   <div className="col-6 p-0 ps-1">
@@ -52,7 +49,14 @@ const GetInTouch = () => {
 
               <textarea value="Message" cols="30" rows="10"></textarea>
               <div className="submit-message">
-                <button>Contact Us</button>
+                <a
+                  href="google.com"
+                  class="button  button-winona"
+                  id="contact-us-button2"
+                >
+                  <div class="content-original">CONTACT US</div>
+                  <div class="content-dubbed">CONTACT US</div>
+                </a>
               </div>
             </div>
           </div>

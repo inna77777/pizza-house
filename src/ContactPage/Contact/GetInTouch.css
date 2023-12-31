@@ -66,4 +66,16 @@
   border: none;
   background-color: #ffe745;
 }
+#contact-us-button2 {
+    padding: 25px 50px;
+  color: #151515;
+  background-color: #ffe745;
+  border-color: #6046b6;
+}
+#contact-us-button2:hover,
+#contact-us-button2:active {
+  color: #ffffff;
+  background-color: #73cca1;
+  border-color: #73cca1;
+}
 

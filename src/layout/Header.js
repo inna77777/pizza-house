@@ -45,11 +45,15 @@ const Header = () => {
               <div className="hover-line" />
             </li>
             <li>
-              <Link to="/typography">Typography</Link>
+              <Link to="/contacts">Contacts</Link>
               <div className="hover-line" />
             </li>
             <li>
-              <Link to="/contacts">Contacts</Link>
+              <Link to="/login">login</Link>
+              <div className="hover-line" />
+            </li>
+            <li>
+              <Link to="/signUp">signUp</Link>
               <div className="hover-line" />
             </li>
             <li>

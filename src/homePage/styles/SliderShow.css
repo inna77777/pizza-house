@@ -14,17 +14,6 @@
   justify-content: space-between;
 }
 
-.button1,
-.button2 {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 80px;
-  height: 80px;
-  z-index: 0;
-  position: relative;
-  overflow: hidden;
-}
 .button1::before {
   content: "";
   position: absolute;
@@ -36,6 +25,7 @@
   transform: skewX(10deg);
   transform-origin: 100% 100%;
   z-index: -1;
+    transition: background-color 0.4s ease-in-out;
 }
 .button2::before {
   content: "";
@@ -48,7 +38,9 @@
   transform: skewX(-10deg);
   transform-origin: 100% 100%;
   z-index: -1;
+    transition: background-color 0.4s ease-in-out;
 }
+
 .button1 div i,
 .button2 div i {
   font-size: 30px;
@@ -74,7 +66,55 @@
 }
 .container-pizza a {
   text-decoration: none;
-  padding: 20px 40px;
+  padding: 30px 50px;
+  color: #151515;
   background-color: #ffe745;
-  color: black;
+  border-color: #6046b6;
+  font-weight: 900;
+  transition: all 0.3s ease-in-out;
+}
+.container-pizza a:hover {
+  color: #ffffff;
+  background-color: #73cca1;
+  border-color: #73cca1;
+}
+.pizza-image {
+  height: 120px;
+  width: 200px;
+}
+.button1,
+.button2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  height: 80px;
+  z-index: 0;
+  position: relative;
+  overflow: hidden;
+  transition: background-color 0.4s ease-in-out;
+}
+.container-button-image {
+  transform: translateX(-200px);
+  transition: transform 0.4s ease-out;
+}
+
+.container-button-image:hover .button1::before,
+.container-button-image2:hover .button2::before {
+  background-color: #ffe745;
+}
+
+.container-button-image:hover .button1,
+.container-button-image2:hover .button2 {
+  height: 120px;
+}
+.container-button-image:hover {
+  transform: translateX(0px);
+}
+.container-button-image2 {
+  transform: translateX(290px);
+  transition: transform 0.4s ease-out;
+}
+.container-button-image2:hover {
+  transform: translateX(0px);
 }

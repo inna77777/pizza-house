@@ -1,4 +1,4 @@
-import React, { useState,useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import "./ReviewsContent.css";
 import Person1 from "../../images/about/team-5-83x83.jpg";
 import Person2 from "../../images/about/team-6-83x83.jpg";
@@ -40,14 +40,14 @@ const ReviewsContent = () => {
   const handleChange = (index) => {
     setSelectedPerson(index);
   };
-    useEffect(() => {
-      const intervalId = setInterval(() => {
-        const nextPerson = (selectedPerson + 1) % personData.length;
-        handleChange(nextPerson);
-      }, 5000);
+  useEffect(() => {
+    const intervalId = setInterval(() => {
+      const nextPerson = (selectedPerson + 1) % personData.length;
+      handleChange(nextPerson);
+    }, 5000);
 
-      return () => clearInterval(intervalId);
-    }, [selectedPerson, personData]);
+    return () => clearInterval(intervalId);
+  }, [selectedPerson, personData]);
   return (
     <div className="pe-5 me-5 d-flex justify-content-between align-items-center flex-column">
       <div className="reviews-text">

@@ -20,9 +20,10 @@ const CompanyProfile = () => {
           <Link to="/about/our-values">Our Values</Link>
         </li>
       </ul>
-      <div style={{marginTop:"50px"}}>
-        <a href="/" className="contact-us-link">
-          Contact us
+      <div style={{ marginTop: "50px" }}>
+        <a href="google.com" class="button  button-winona" id="contact-us-button">
+          <div class="content-original">CONTACT US</div>
+          <div class="content-dubbed">CONTACT US</div>
         </a>
       </div>
     </div>

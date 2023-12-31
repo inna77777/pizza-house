@@ -1,10 +1,10 @@
 @font-face {
-  font-family: 'Asfalto';
-  src: local('Asfalto'), url('../public/Asfalto.otf') format('otf');
+  font-family: "Asfalto";
+  src: local("Asfalto"), url("../public/Asfalto.otf") format("otf");
 }
 body {
   margin: 0;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   overflow-x: hidden;
@@ -20,4 +20,54 @@ code {
   max-width: 1170px;
   margin: 0 auto;
 }
+.button {
+  position: relative;
+  text-decoration: none;
+  display: inline-block;
+  line-height: 1.85;
+  border: none;
+  font-family: "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    "Helvetica Neue", Arial, sans-serif;
+  font-weight: 900;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  text-align: center;
+  cursor: pointer;
+  vertical-align: middle;
+  user-select: none;
+  transition: all 0.25s ease-in-out;
+}
+
+.content-dubbed {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transform: translate3d(0, 20%, 0);
+  pointer-events: none;
+}
+.content-original,
+.content-dubbed {
+  transition: transform 0.3s, opacity 0.3s;
+  transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);
+}
+
+.button-winona:hover .content-original {
+  opacity: 0;
+  transform: translate3d(0, -50%, 0);
+}
+
+.button-winona:hover .content-dubbed {
+  opacity: 1;
+  transform: none;
+}
+
+
 

@@ -1,9 +1,9 @@
 import React from "react";
 import "./styles/PizzaHouseService.css";
 import serviceImage from "../images/bg-3.jpg";
+import { FramerWrapper } from "../utils/FramerWrapper";
 
 const PizzaHouseService = () => {
-  
   return (
     <div
       className="service mb-5"
@@ -16,16 +16,46 @@ const PizzaHouseService = () => {
 
             <div class="col-5">
               <div className="service-main">
-                <h2>Best atmosphere</h2>
+                <FramerWrapper
+                  hidden={{ opacity: 0, x: 100 }}
+                  visible={{ opacity: 1, x: 0 }}
+                  duration={1}
+                >
+                  <h2>Best atmosphere</h2>
+                </FramerWrapper>
                 <p>
                   PizzaHouse is the place of the best pizza and high-quality
                   service.
                 </p>
                 <div className="founder">
-                  <div></div>
-                  <div>Ben Smith, Founder</div>
+                  <div className="line"></div>
+                  <FramerWrapper
+                    hidden={{ opacity: 0, x: 100 }}
+                    visible={{ opacity: 1, x: 0 }}
+                    duration={1}
+                    delay={0.3}
+                  >
+                    <div>Ben Smith, Founder</div>
+                  </FramerWrapper>
                 </div>
-                <a href="/">VIEW OUR SERVICES</a>
+                <FramerWrapper
+                  hidden={{ opacity: 0, y: 100 }}
+                  visible={{ opacity: 1, y: 0 }}
+                  duration={0.5}
+                  ease="linear"
+                  delay={0.3}
+                >
+                  <div>
+                    <a
+                      href="google.com"
+                      class="button  button-winona"
+                      id="button-service"
+                    >
+                      <div class="content-original">View Our Services</div>
+                      <div class="content-dubbed">View Our Services</div>
+                    </a>
+                  </div>
+                </FramerWrapper>
               </div>
             </div>
             <div class="col-1"></div>
