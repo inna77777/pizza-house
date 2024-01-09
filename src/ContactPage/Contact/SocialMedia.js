@@ -43,6 +43,7 @@ const SocialMedia = () => {
             <a
               href="https://www.google.com/maps?q=6036+Richmond+Hwy,+Alexandria,+VA+22303"
               target="_blank"
+              rel="noreferrer"
             >
               6036 Richmond hwy., Alexandria, VA, 2230
             </a>

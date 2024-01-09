@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useMemo } from "react";
 import "./ReviewsContent.css";
 import Person1 from "../../images/about/team-5-83x83.jpg";
 import Person2 from "../../images/about/team-6-83x83.jpg";
@@ -7,7 +7,7 @@ import Person4 from "../../images/about/team-8-83x83.jpg";
 
 const ReviewsContent = () => {
   const [selectedPerson, setSelectedPerson] = useState(0);
-  const personData = [
+  const personData = useMemo(()=>[
     {
       image: Person1,
       testimonial:
@@ -36,7 +36,7 @@ const ReviewsContent = () => {
       name: "Will Jones,",
       post: "Regular Client",
     },
-  ];
+  ]);
   const handleChange = (index) => {
     setSelectedPerson(index);
   };
