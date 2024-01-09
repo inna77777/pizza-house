@@ -1,7 +1,7 @@
 import React from "react";
 import "./styles/GridImagesSection.css";
 import ingredients from "../images/gallery-1-310x585.jpg";
-import interior from "../images/gallery-2-631x587.jpg";
+import interior3 from "../images/gallery-2-631x587.jpg";
 import dishware from "../images/gallery-3-311x289.jpg";
 import cocktails from "../images/gallery-4-631x289.jpg";
 import salads from "../images/gallery-5-311x289.jpg";
@@ -29,14 +29,14 @@ const GridImagesSection = () => {
         </FramerWrapper>
 
         <FramerWrapper
-          hidden={{ opacity: 0, x: 500 }}
+          hidden={{ opacity: 0, x: 200 }}
           visible={{ opacity: 1, x: 0 }}
           duration={0.5}
           fullWidth
           overflowHidden
         >
           <div className="hover-child">
-            <img src={interior} alt="menu" />
+            <img src={interior3} alt="menu" />
             <div className="text2">
               <p>COMFORTABLE INTERIOR</p>
               <span>MODERN DESIGN</span>
