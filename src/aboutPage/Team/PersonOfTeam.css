@@ -2,7 +2,7 @@
   position: relative;
 
   transition: transform 0.5s ease-in-out;
-  padding: 20px 0 50px 0;
+  padding: 15px 10px 50px 10px;
 }
 .persons h6 {
   font-size: 18px;
@@ -27,7 +27,7 @@
 }
 
 .persons:hover {
-  box-shadow: rgba(0, 0, 0, 0.05) 4px 4px 3px 0px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
   transform: translateY(-10%);
 }
 
@@ -55,22 +55,18 @@
 
 .persons:hover .social-media-icons a:nth-child(1) {
   animation-delay: 0.05s;
-
 }
 
 .persons:hover .social-media-icons a:nth-child(2) {
-  animation-delay: 0.10s;
-
+  animation-delay: 0.1s;
 }
 
 .persons:hover .social-media-icons a:nth-child(3) {
   animation-delay: 0.15s;
-
 }
 
 .persons:hover .social-media-icons a:nth-child(4) {
-  animation-delay: 0.20s;
-
+  animation-delay: 0.2s;
 }
 
 @keyframes fadeInUp {

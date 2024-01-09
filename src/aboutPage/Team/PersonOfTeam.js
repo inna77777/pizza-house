@@ -1,9 +1,10 @@
 import React from "react";
 import "./PersonOfTeam.css";
+import { FramerWrapper } from "../../utils/FramerWrapper";
 
 const PersonOfTeam = ({ image, heading, paragraph }) => {
   return (
-    <div className="col-3 text-center persons d-flex justify-content-center align-items-center flex-column">
+    <div className="text-center persons d-flex justify-content-center align-items-center flex-column" style={{maxWidth:"18em"}}>
       <img src={image} alt="person" className="img-fluid mb-4" />
       <h6>{heading}</h6>
       <p>{paragraph}</p>
